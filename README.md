@@ -1,11 +1,6 @@
 # Wes Vanilla Stats (Don't Starve Together Mod)
-Set the Don't Starve Vanilla stats for Wes:
+[Wes Vanilla Stats - Download on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2941223138)
 
-- 113 Health
-- 113 Hunger
-- 150 Sanity
-- 1.25x Hunger Modifier
-
-Configure Mod to define each stat for \"Vanilla\" or \"Reworked\", being \"Reworked\" the current stats of the game.
+![Mod Description](https://github.com/gerisonsabino/wes_vanilla_stats/blob/master/images/moddesc.png)
 
 [Wes Vanilla Stats - Download on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2941223138)
