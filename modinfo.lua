@@ -1,8 +1,8 @@
 name = "Wes Vanilla Stats"
-description = "Don't Starve Vanilla base stats for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n\n1.25x Hunger Modifier\n\nTHIS MOD DOES NOT AFFECT THE NEW REWORK FEATURES."
+description = "Set the Don't Starve Vanilla stats for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nConfigure Mod to define each stat for \"Vanilla\" or \"Reworked\", being \"Reworked\" the current stats of the game."
 author = "Geeris"
 
-version = "1.0"
+version = "1.1"
 forumthread = ""
 api_version = 10
 
@@ -19,41 +19,41 @@ icon = "modicon.tex"
 configuration_options = {
 	{
 		name = "SET_HEALTH",
-		label = "113 Health",
-		hover = "Define 113 points for Health.",
+		label = "Health",
+		hover = "Sets the amount of Health.",
 		options = {
-			{ description = "Enabled", data = true },
-			{ description = "Disabled", data = false }
+			{ description = "Vanilla (113)", data = true },
+			{ description = "Reworked (75)", data = false }
 		},
 		default = true
 	},
 	{
 		name = "SET_HUNGER",
-		label = "113 Hunger",
-		hover = "Define 113 points for Hunger.",
+		label = "Hunger",
+		hover = "Sets the amount of Hunger.",
 		options = {
-			{ description = "Enabled", data = true },
-			{ description = "Disabled", data = false }
+			{ description = "Vanilla (113)", data = true },
+			{ description = "Reworked (75)", data = false }
 		},
 		default = true
 	},
 	{
 		name = "SET_SANITY",
-		label = "150 Sanity",
-		hover = "Define 150 points for Sanity.",
+		label = "Sanity",
+		hover = "Sets the amount of Sanity.",
 		options = {
-			{ description = "Enabled", data = true },
-			{ description = "Disabled", data = false }
+			{ description = "Vanilla (150)", data = true },
+			{ description = "Reworked (75)", data = false }
 		},
 		default = true
 	},
 	{
 		name = "SET_HUNGER_RATE",
-		label = "1.25x Hunger Modifier",
-		hover = "Define 1.25x rate for Hunger Modifier.",
+		label = "Hunger Modifier",
+		hover = "Sets the rate of Hunger Modifier.",
 		options = {
-			{ description = "Enabled", data = true },
-			{ description = "Disabled", data = false }
+			{ description = "Vanilla (1.25x)", data = true },
+			{ description = "Reworked (1.00x)", data = false }
 		},
 		default = true
 	}
