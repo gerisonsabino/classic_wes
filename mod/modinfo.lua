@@ -1,8 +1,8 @@
-name = "Wes Vanilla Stats"
-description = "Set the Don't Starve Vanilla stats for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nConfigure Mod to define each stat for \"Vanilla\" or \"Reworked\", being \"Reworked\" the current stats of the game."
+name = "Classic Wes"
+description = "Set classic Don't Starve stats for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nConfigure Mod to define each stat for \"Classic\" or \"Standard\"."
 author = "Geeris"
 
-version = "1.1"
+version = "1.2.0"
 forumthread = ""
 api_version = 10
 
@@ -22,8 +22,8 @@ configuration_options = {
 		label = "Health",
 		hover = "Sets the amount of Health.",
 		options = {
-			{ description = "Vanilla (113)", data = true },
-			{ description = "Reworked (75)", data = false }
+			{ description = "Classic (113)", data = true },
+			{ description = "Standard (75)", data = false }
 		},
 		default = true
 	},
@@ -32,8 +32,8 @@ configuration_options = {
 		label = "Hunger",
 		hover = "Sets the amount of Hunger.",
 		options = {
-			{ description = "Vanilla (113)", data = true },
-			{ description = "Reworked (75)", data = false }
+			{ description = "Classic (113)", data = true },
+			{ description = "Standard (75)", data = false }
 		},
 		default = true
 	},
@@ -42,8 +42,8 @@ configuration_options = {
 		label = "Sanity",
 		hover = "Sets the amount of Sanity.",
 		options = {
-			{ description = "Vanilla (150)", data = true },
-			{ description = "Reworked (75)", data = false }
+			{ description = "Classic (150)", data = true },
+			{ description = "Standard (75)", data = false }
 		},
 		default = true
 	},
@@ -52,8 +52,8 @@ configuration_options = {
 		label = "Hunger Modifier",
 		hover = "Sets the rate of Hunger Modifier.",
 		options = {
-			{ description = "Vanilla (1.25x)", data = true },
-			{ description = "Reworked (1.00x)", data = false }
+			{ description = "Classic (1.25x)", data = true },
+			{ description = "Standard (1.00x)", data = false }
 		},
 		default = true
 	}
