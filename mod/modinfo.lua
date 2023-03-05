@@ -21,40 +21,40 @@ configuration_options = {
 		name = "SET_HEALTH",
 		label = "Health",
 		hover = "Sets the amount of Health.",
+		default = true,
 		options = {
 			{ description = "Classic (113)", data = true },
 			{ description = "Standard (75)", data = false }
-		},
-		default = true
+		}
 	},
 	{
 		name = "SET_HUNGER",
 		label = "Hunger",
 		hover = "Sets the amount of Hunger.",
+		default = true,
 		options = {
 			{ description = "Classic (113)", data = true },
 			{ description = "Standard (75)", data = false }
-		},
-		default = true
+		}
 	},
 	{
 		name = "SET_SANITY",
 		label = "Sanity",
 		hover = "Sets the amount of Sanity.",
+		default = true,
 		options = {
 			{ description = "Classic (150)", data = true },
 			{ description = "Standard (75)", data = false }
-		},
-		default = true
+		}
 	},
 	{
 		name = "SET_HUNGER_RATE",
 		label = "Hunger Modifier",
 		hover = "Sets the rate of Hunger Modifier.",
+		default = true,
 		options = {
 			{ description = "Classic (1.25x)", data = true },
 			{ description = "Standard (1.00x)", data = false }
-		},
-		default = true
+		}
 	}
 }
