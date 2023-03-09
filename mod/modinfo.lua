@@ -2,7 +2,7 @@ name = "Classic Wes"
 description = "Set classic Don't Starve stats for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nConfigure Mod to define each stat for \"Classic\" or \"Standard\"."
 author = "Geeris"
 
-version = "1.2.0"
+version = "1.2.1"
 forumthread = ""
 api_version = 10
 
