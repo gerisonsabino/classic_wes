@@ -1,5 +1,5 @@
 name = "Classic Wes"
-description = "Set classic Don't Starve stats for Wes and config some Rework Modifiers:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nDisabled Hounded Target\nDisabled Insulation Modifier (Sets old insulation modifier)\nDisabled Grogginess Modifier\nDisabled Lightning Modifier\n\nConfigure Mod to define each stat for \"Classic\" or \"Standard\"."
+description = "Set classic Don't Starve stats for Wes and config some Rework Modifiers:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nDisabled Hounded Target\nDisabled Insulation Modifier (Sets old insulation modifier)\nDisabled Grogginess Modifier\nDisabled Lightning Modifier\n\nConfigure Mod to define each stat/modifier for \"Classic\" or \"Standard\"."
 author = "Geeris"
 
 version = "1.3.0"
