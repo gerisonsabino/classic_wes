@@ -1,5 +1,5 @@
 name = "Classic Wes"
-description = "Set classic Don't Starve stats for Wes and disable some Rework debuffs:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nDisabled Hounded Target\nDisabled Insulation Modifier (Sets old insulation modifier)\nDisabled Grogginess Modifier\nDisabled Lightning Modifier\n\nConfigure Mod to define each stat for \"Classic\" or \"Standard\"."
+description = "Set classic Don't Starve stats for Wes and config some Rework Modifiers:\n\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Modifier\n\nDisabled Hounded Target\nDisabled Insulation Modifier (Sets old insulation modifier)\nDisabled Grogginess Modifier\nDisabled Lightning Modifier\n\nConfigure Mod to define each stat for \"Classic\" or \"Standard\"."
 author = "Geeris"
 
 version = "1.3.0"
@@ -63,18 +63,18 @@ configuration_options = {
 		hover = "Hounds waves will focus more on Wes than the other survivors.",
 		default = true,
 		options = {
-			{ description = "Classic (No)", data = true },
-			{ description = "Standard (Yes)", data = false }
+			{ description = "Classic (Off)", data = true },
+			{ description = "Standard (On)", data = false }
 		}
 	},
 	{
 		name = "SET_CLASSIC_INSULATION",
 		label = "Insulation Modifier",
-		hover = "Is more susceptible to overheating and freezing.",
+		hover = "Is more susceptible to overheating and freezing (Sets old insulation modifier).",
 		default = true,
 		options = {
-			{ description = "Classic (No)", data = true },
-			{ description = "Standard (Yes)", data = false }
+			{ description = "Classic (Off)", data = true },
+			{ description = "Standard (On)", data = false }
 		}
 	},
 	{
@@ -83,8 +83,8 @@ configuration_options = {
 		hover = "Takes longer to recover from grogginess.",
 		default = true,
 		options = {
-			{ description = "Classic (No)", data = true },
-			{ description = "Standard (Yes)", data = false }
+			{ description = "Classic (Off)", data = true },
+			{ description = "Standard (On)", data = false }
 		}
 	},
 	{
@@ -93,8 +93,8 @@ configuration_options = {
 		hover = "Has a higher chance of being struck by lightning.",
 		default = true,
 		options = {
-			{ description = "Classic (No)", data = true },
-			{ description = "Standard (Yes)", data = false }
+			{ description = "Classic (Off)", data = true },
+			{ description = "Standard (On)", data = false }
 		}
 	}
 }
