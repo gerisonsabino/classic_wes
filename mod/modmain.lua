@@ -1,18 +1,18 @@
 local TUNING = GLOBAL.TUNING
 
-if GetModConfigData("SET_HEALTH") then
+if GetModConfigData("SET_CLASSIC_HEALTH") then
 	TUNING.WES_HEALTH = 113
 end
 
-if GetModConfigData("SET_HUNGER") then
+if GetModConfigData("SET_CLASSIC_HUNGER") then
 	TUNING.WES_HUNGER = 113
 end 
 
-if GetModConfigData("SET_SANITY") then
+if GetModConfigData("SET_CLASSIC_SANITY") then
 	TUNING.WES_SANITY = 150
 end
 
-if GetModConfigData("SET_HUNGER_RATE") then
+if GetModConfigData("SET_CLASSIC_HUNGER_RATE") then
 	AddPrefabPostInit("wes", function(inst)
 		if not GLOBAL.TheWorld.ismastersim then
 			return inst

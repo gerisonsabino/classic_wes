@@ -18,7 +18,7 @@ icon = "modicon.tex"
 
 configuration_options = {
 	{
-		name = "SET_HEALTH",
+		name = "SET_CLASSIC_HEALTH",
 		label = "Health",
 		hover = "Sets the amount of Health.",
 		default = true,
@@ -28,7 +28,7 @@ configuration_options = {
 		}
 	},
 	{
-		name = "SET_HUNGER",
+		name = "SET_CLASSIC_HUNGER",
 		label = "Hunger",
 		hover = "Sets the amount of Hunger.",
 		default = true,
@@ -38,7 +38,7 @@ configuration_options = {
 		}
 	},
 	{
-		name = "SET_SANITY",
+		name = "SET_CLASSIC_SANITY",
 		label = "Sanity",
 		hover = "Sets the amount of Sanity.",
 		default = true,
@@ -48,7 +48,7 @@ configuration_options = {
 		}
 	},
 	{
-		name = "SET_HUNGER_RATE",
+		name = "SET_CLASSIC_HUNGER_RATE",
 		label = "Hunger Modifier",
 		hover = "Sets the rate of Hunger Modifier.",
 		default = true,
