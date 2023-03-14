@@ -1,15 +1,15 @@
 local TUNING = GLOBAL.TUNING
 
 if GetModConfigData("SET_C_HEALTH") then
-	TUNING.WES_HEALTH = 113
+	TUNING.WES_HEALTH = math.ceil(TUNING.WILSON_HEALTH * 0.75)
 end
 
 if GetModConfigData("SET_C_HUNGER") then
-	TUNING.WES_HUNGER = 113
+	TUNING.WES_HUNGER = math.ceil(TUNING.WILSON_HUNGER * 0.75)
 end 
 
 if GetModConfigData("SET_C_SANITY") then
-	TUNING.WES_SANITY = 150
+	TUNING.WES_SANITY = math.ceil(TUNING.WILSON_SANITY * 0.75)
 end
 
 if GetModConfigData("SET_C_GROGGINESS_DECAY_RATE") then
@@ -22,7 +22,8 @@ end
 
 if (GetModConfigData("SET_C_HUNGER_RATE") or 
 	GetModConfigData("SET_C_HOUNDED_TARGET") or 
-	GetModConfigData("SET_C_INSULATION_TINY")) then 
+	GetModConfigData("SET_C_INSULATION_TINY")
+) then 
 	AddPrefabPostInit("wes", function(inst)
 		if not GLOBAL.TheWorld.ismastersim then
 			return inst
