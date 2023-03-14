@@ -1,8 +1,8 @@
 name = "Classic Wes"
-description = "Classic Don't Starve stats/modifiers for Wes:\n\n113 Health\n113 Hunger\n150 Sanity\n\n1.25x Hunger Rate (On)\nHounds Target (Off)\nOverheating/Freezing Modifier (Off)\nGrogginess Modifier (Off)\nLightning Target (Off)\n\nConfigure Mod to define each stat/modifier for \"Classic\" or \"Standard\"."
+description = "Classic Wes Stats/Modifiers\n\nEnabled:\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Rate\n\nDisabled:\nHounds Target\nOverheat/Freeze Modifier\nGrogginess Modifier\nLightning Target\n\nConfigure Mod to set \"Classic\" or \"Standard\" for each Stat/Modifier."
 author = "Geeris"
 
-version = "1.3.0"
+version = "1.3.1"
 forumthread = ""
 api_version = 10
 

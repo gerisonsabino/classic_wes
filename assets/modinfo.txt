@@ -1,13 +1,15 @@
-Classic Don't Starve stats/modifiers for Wes:
+[h1]Classic Wes Stats/Modifiers[/h1]
 
+[h3]Enabled:[/h3] 
 113 Health
 113 Hunger
 150 Sanity
+1.25x Hunger Rate
 
-1.25x Hunger Rate (On)
-Hounds Target (Off)
-Overheating/Freezing Modifier (Off)
-Grogginess Modifier (Off)
-Lightning Target (Off)
+[h3]Disabled:[/h3] 
+Hounds Target
+Overheat/Freeze Modifier
+Grogginess Modifier
+Lightning Target
 
-Configure Mod to define each stat/modifier for "Classic" or "Standard".
+[b]Configure Mod to set "Classic" or "Standard" for each stat/modifier.[/b]
