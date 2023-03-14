@@ -1,5 +1,5 @@
 name = "Classic Wes"
-description = "Classic Wes Stats/Modifiers\n\nEnabled:\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Rate\n\nDisabled:\nHounds Target\nOverheat/Freeze Modifier\nGrogginess Modifier\nLightning Target\n\nConfigure Mod to set \"Classic\" or \"Standard\" for each Stat/Modifier."
+description = "Classic Wes Stats/Modifiers\n\nAdds:\n113 Health\n113 Hunger\n150 Sanity\n1.25x Hunger Rate\n\nRemoves:\nHounds Target\nOverheat/Freeze Modifier\nGrogginess Modifier\nLightning Target\n\nConfigure Mod to set \"Classic\" or \"Standard\" for each Stat/Modifier."
 author = "Geeris"
 
 version = "1.3.1"

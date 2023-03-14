@@ -1,12 +1,12 @@
 [h1]Classic Wes Stats/Modifiers[/h1]
 
-[h3]Enabled:[/h3] 
+[h3]Adds:[/h3] 
 113 Health
 113 Hunger
 150 Sanity
 1.25x Hunger Rate
 
-[h3]Disabled:[/h3] 
+[h3]Removes:[/h3] 
 Hounds Target
 Overheat/Freeze Modifier
 Grogginess Modifier
